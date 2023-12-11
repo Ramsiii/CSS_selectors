@@ -1,0 +1,5 @@
+/* Use attribute selection to apply the following rule to all <img> tags with an alt containing the word "one". */
+
+img[alt*="one"] {
+   opacity: 0.3;
+}
