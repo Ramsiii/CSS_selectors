@@ -1,0 +1,24 @@
+<html>
+    <style>
+        div.some p:not(:first-child) { color:red; }
+        div.not-last p:not(:last-child) { color:red; }
+    </style>
+    <div>
+        <h3>First Paragraph</h3>
+    </div>
+    <div class="some">
+        <p>Not red</p>
+        <p>red</p>
+        <p>red</p>
+        <p>red</p>
+    </div>
+    <div>
+        <h3>Next Paragraph</h3>
+    </div>
+    <div class="not-last">
+        <p>red</p>
+        <p>red</p>
+        <p>red</p>
+        <p>Not red</p>
+    </div>
+</html>
