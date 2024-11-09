@@ -1,0 +1,20 @@
+soup.select('div')
+
+All elements with the <div> tag
+
+soup.select('#some_id')
+
+The HTML element containing the id attribute of some_id
+
+soup.select('.notice')
+
+All the HTML elements with the CSS class named notice
+
+soup.select('div span')
+
+Any <span> descendant of <div>
+
+soup.select('div > span')
+
+Any <span> that is a child of <div>
+
